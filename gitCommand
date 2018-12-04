@@ -15,7 +15,20 @@ git rm --cache filename
 git branch branchname
 
 git checkout branchname
+#create a new filename
 
-git checkout master 
+git checkout master
+#the new file added or edited under new branch won't show
 
+git merge login
+
+git remote
+git remote add origin https://github.com/funfunpluto/try001.git
+git remote
+
+git push -u origin master
+
+touch README.md
+git add .
+git commit -m 'Added readme'
 git push
