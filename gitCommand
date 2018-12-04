@@ -2,8 +2,20 @@
 #https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
 git init
+git config --global user.name "funfunpluto"
+git config --global user.email funfunpluto@gmail.com
+
 git add filename
 git status
 git commit (-a all, -m "message")
+git rm --cache filename
+
+#add to .gitignore any file or directory you don't want git to include
+
+git branch branchname
+
+git checkout branchname
+
+git checkout master 
 
 git push
