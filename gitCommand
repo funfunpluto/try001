@@ -1,6 +1,9 @@
+# https://www.git-tower.com/learn/git/commands
+#https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
 git init
 git add filename
 git status
 git commit (-a all, -m "message")
 
-
+git push
