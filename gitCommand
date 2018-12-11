@@ -12,6 +12,7 @@ git rm --cache filename
 
 #add to .gitignore any file or directory you don't want git to include
 
+#create anthor branch
 git branch branchname
 
 git checkout branchname
@@ -32,3 +33,16 @@ touch README.md
 git add .
 git commit -m 'Added readme'
 git push
+
+
+
+#Fetch the remote master branch and check it out when Updates were rejected because the remote contains work that you do not have locally.
+
+git fetch origin master
+git checkout master
+
+#when Updates were rejected because the tip of your current branch is behind
+git pull origin master
+git push origin master
+
+
